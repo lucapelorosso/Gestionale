@@ -4,4 +4,4 @@
 /* Modified by: Luca Pelorosso                  */
 /* Modified: 2022-10-16                         */
 /************************************************/
-create table account
+create table gestionale.account;
