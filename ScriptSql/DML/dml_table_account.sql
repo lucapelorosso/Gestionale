@@ -4,4 +4,4 @@
 /* Modified by: Luca Pelorosso                  */
 /* Modified: 2022-10-16                         */
 /************************************************/
-insert fgestionale.account;
+insert gestionale.account;
