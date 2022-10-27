@@ -6,11 +6,12 @@
 /* Definition: Creation table address           */
 /************************************************/
 create table gestionale.address (
-    addressID numeric(4) NOT NULL AUTO_INCREMENT START WITH 1,
-    nationID int,
+    addressID mediumint NOT NULL AUTO_INCREMENT,
+    nationID mediumint,
     cap varchar(25),
-    type varchar(25),
+    tipo varchar(25),
     city varchar(255),
     a_address varchar(255),
-    a_number varchar(30)
+    a_number varchar(30),
+    PRIMARY KEY (addressID)
 );

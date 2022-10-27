@@ -7,9 +7,10 @@
 /************************************************/
 
 create table gestionale.publisher (
-    publisherID numeric(4) NOT NULL AUTO_INCREMENT START WITH 1,
+    publisherID mediumint NOT NULL AUTO_INCREMENT,
     publisher_name  varchar(255),
     foundation_date date,
-    nationID int,
-    addressID int
+    nationID mediumint,
+    addressID mediumint,
+    PRIMARY KEY (publisherID)
 );

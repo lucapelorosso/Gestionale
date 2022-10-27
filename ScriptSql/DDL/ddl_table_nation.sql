@@ -6,6 +6,7 @@
 /* Definition: Creation table nation            */
 /************************************************/
 create table gestionale.nation (
-    nationID numeric(4) NOT NULL AUTO_INCREMENT START WITH 1,
-    nation_name  varchar(255)
+    nationID mediumint NOT NULL AUTO_INCREMENT,
+    nation_name  varchar(255),
+    PRIMARY KEY (nationID)
 );
