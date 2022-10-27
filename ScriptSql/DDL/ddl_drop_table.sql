@@ -7,7 +7,7 @@
 /************************************************/
 
 
-DROP TABLE  'gestionale'.'nation';
-DROP TABLE  'gestionale'.'address';
-DROP TABLE  'gestionale'.'account';
-DROP TABLE  'gestionale'.'publisher';
+DROP TABLE `gestionale`.`nation`;
+DROP TABLE `gestionale`.`address`;
+DROP TABLE `gestionale`.`account`;
+DROP TABLE `gestionale`.`publisher`;
