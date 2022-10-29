@@ -1,0 +1,76 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "ca0894bf-33f9-4ca3-ac58-fefa87a40ced": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 225,
+                    "y": 79
+                },
+                "z": 0
+            }
+        }
+    },
+    "Resources": {
+        "DDBTable": {
+            "Type": "AWS::DynamoDB::Table",
+            "Properties": {
+                "AttributeDefinitions": [
+                    {
+                        "AttributeName": "ArtistId",
+                        "AttributeType": "S"
+                    },
+                    {
+                        "AttributeName": "Concert",
+                        "AttributeType": "S"
+                    },
+                    {
+                        "AttributeName": "TicketSales",
+                        "AttributeType": "S"
+                    }
+                ],
+                "KeySchema": [
+                    {
+                        "AttributeName": "ArtistId",
+                        "KeyType": "HASH"
+                    },
+                    {
+                        "AttributeName": "Concert",
+                        "KeyType": "RANGE"
+                    }
+                ],
+                "GlobalSecondaryIndexes": [
+                    {
+                        "IndexName": "GSI",
+                        "KeySchema": [
+                            {
+                                "AttributeName": "TicketSales",
+                                "KeyType": "HASH"
+                            }
+                        ],
+                        "Projection": {
+                            "ProjectionType": "KEYS_ONLY"
+                        },
+                        "ProvisionedThroughput": {
+                            "ReadCapacityUnits": 5,
+                            "WriteCapacityUnits": 5
+                        }
+                    }
+                ],
+                "ProvisionedThroughput": {
+                    "ReadCapacityUnits": 5,
+                    "WriteCapacityUnits": 5
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "ca0894bf-33f9-4ca3-ac58-fefa87a40ced"
+                }
+            }
+        }
+    }
+}
