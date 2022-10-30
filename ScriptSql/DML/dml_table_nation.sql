@@ -21,3 +21,12 @@ VALUES ('Svizzera');
 
 
 COMMIT;
+
+
+
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('U.S.A.'); 
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Canada');
+COMMIT;
+
