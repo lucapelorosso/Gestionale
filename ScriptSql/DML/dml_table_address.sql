@@ -23,6 +23,23 @@ VALUES
 'Sesto San Giovanni',
 'Lombardia',
 '37');
+COMMIT;
 
 
+INSERT INTO gestionale.address
+(
+`nationID`,
+`cap`,
+`tipo`,
+`city`,
+`a_address`,
+`a_number`)
+VALUES
+(
+(select nationID from gestionale.nation where nation_name = 'U.S.A.'),
+'12345',
+'Street',
+'New York City',
+'Fittizzio',
+'1');
 COMMIT;
