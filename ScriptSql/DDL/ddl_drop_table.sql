@@ -9,5 +9,6 @@
 
 DROP TABLE `gestionale`.`nation`;
 DROP TABLE `gestionale`.`address`;
+DROP TABLE `gestionale`.`socialnetwork_type`;
 DROP TABLE `gestionale`.`account`;
 DROP TABLE `gestionale`.`publisher`;
