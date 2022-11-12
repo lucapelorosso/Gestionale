@@ -1,9 +1,9 @@
 /************************************************/
 /* Created by: Luca Pelorosso                   */
-/* Created: 2022-10-11                          */
+/* Created: 2022-11-05                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2022-10-28                         */
-/* Definition: Creation table account           */
+/* Modified: 2022-11-05                         */
+/* Definition: Alter table account              */
 /************************************************/
 create table gestionale.account (
     accountID mediumint NOT NULL AUTO_INCREMENT,
