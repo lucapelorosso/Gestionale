@@ -6,6 +6,9 @@
 /* Definition: insert data table address        */
 /************************************************/
 
+TRUNCATE `gestionale`.`account_social`;
+TRUNCATE `gestionale`.`account`;
+TRUNCATE `gestionale`.`publisher`;
 
 INSERT INTO gestionale.address
 (

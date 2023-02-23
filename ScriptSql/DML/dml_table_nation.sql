@@ -6,6 +6,13 @@
 /* Definition: insert data table nation         */
 /************************************************/
  
+
+TRUNCATE `gestionale`.`account_social`;
+TRUNCATE `gestionale`.`account`;
+TRUNCATE `gestionale`.`address`;
+TRUNCATE `gestionale`.`publisher`;
+
+
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Italia'); 
 COMMIT;
