@@ -5,6 +5,10 @@
 /* Modified: 2022-10-30                         */
 /* Definition: insert data table account        */
 /************************************************/
+
+TRUNCATE `gestionale`.`account_social`;
+TRUNCATE `gestionale`.`account`;
+
 INSERT INTO `gestionale`.`account`
 ( 
 `LastName`,
