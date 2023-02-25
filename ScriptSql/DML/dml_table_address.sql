@@ -2,13 +2,15 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-28                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2022-10-28                         */
+/* Modified: 2023-02-28                         */
 /* Definition: insert data table address        */
 /************************************************/
 
-TRUNCATE `gestionale`.`account_social`;
-TRUNCATE `gestionale`.`account`;
-TRUNCATE `gestionale`.`publisher`;
+SET SQL_SAFE_UPDATES = 0;
+
+DELETE FROM `gestionale`.`account_social`;
+DELETE FROM `gestionale`.`account`;
+DELETE FROM `gestionale`.`publisher`;
 
 INSERT INTO gestionale.address
 (
@@ -46,3 +48,23 @@ VALUES
 'Fittizzio',
 '1');
 COMMIT;
+
+
+INSERT INTO gestionale.address
+(
+`nationID`,
+`cap`,
+`tipo`,
+`city`,
+`a_address`,
+`a_number`)
+VALUES
+(
+(select nationID from gestionale.nation where nation_name = 'Italia'),
+'20099',
+'Viale',
+'Sesto San Giovanni',
+'Casiraghi',
+'1');
+COMMIT;
+ 

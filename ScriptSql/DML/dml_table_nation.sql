@@ -6,11 +6,11 @@
 /* Definition: insert data table nation         */
 /************************************************/
  
-
-TRUNCATE `gestionale`.`account_social`;
-TRUNCATE `gestionale`.`account`;
-TRUNCATE `gestionale`.`address`;
-TRUNCATE `gestionale`.`publisher`;
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM `gestionale`.`account_social`;
+DELETE FROM  `gestionale`.`account`;
+DELETE FROM `gestionale`.`address`;
+DELETE FROM `gestionale`.`publisher`;
 
 
 INSERT INTO gestionale.nation (nation_name)
