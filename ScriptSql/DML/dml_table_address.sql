@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-28                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-02-25                         */
+/* Modified: 2023-04-12                         */
 /* Definition: insert data table address        */
 /************************************************/
 
@@ -11,6 +11,7 @@ SET SQL_SAFE_UPDATES = 0;
 DELETE FROM `gestionale`.`account_social`;
 DELETE FROM `gestionale`.`account`;
 DELETE FROM `gestionale`.`publisher`;
+DELETE FROM `gestionale`.`socialnetwork_type`;
 
 INSERT INTO gestionale.address
 (
