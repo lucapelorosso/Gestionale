@@ -60,3 +60,11 @@ NULL,
 (select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Sesto San Giovanni' and a_address = 'Casiraghi' and indirizzo.a_number = '1')
 );
 COMMIT;
+
+
+/************************************************/
+/* Created: 2023/04/15                          */
+/* Created By: Luca Pelorosso                   */
+/* Note: Matenere sepre alla fine               */
+/************************************************/
+select * from gestionale.account 

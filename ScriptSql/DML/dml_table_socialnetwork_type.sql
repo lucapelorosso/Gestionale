@@ -49,3 +49,13 @@ STR_TO_DATE('01/01/2022', '%d/%m/%Y'),
 (select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'New York City' and a_address = 'Fittizzio' and indirizzo.a_number = '1')
 );
 COMMIT;
+
+
+
+
+/************************************************/
+/* Created: 2023/04/15                          */
+/* Created By: Luca Pelorosso                   */
+/* Note: Matenere sepre alla fine               */
+/************************************************/
+select * from gestionale.socialnetwork_type 

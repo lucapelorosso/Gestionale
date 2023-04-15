@@ -38,3 +38,10 @@ STR_TO_DATE('01/01/2022', '%d/%m/%Y'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 (select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Sesto San Giovanni' and a_address = 'Lombardia' and indirizzo.a_number = '20')
 );
+
+/************************************************/
+/* Created: 2023/04/15                          */
+/* Created By: Luca Pelorosso                   */
+/* Note: Matenere sepre alla fine               */
+/************************************************/
+select * from gestionale.publisher 
