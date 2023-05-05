@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-11                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-02-25                         */
+/* Modified: 2023-05-05                         */
 /* Definition: insert data table account        */
 /************************************************/
 
@@ -19,7 +19,7 @@ INSERT INTO `gestionale`.`account`
 `death_date`,
 `birth_city`,
 `death_city`,
-`type_account`,
+`typeaccountID`,
 `nationID`,
 `addressID`)
 VALUES
@@ -30,7 +30,7 @@ STR_TO_DATE('07/01/1979', '%d/%m/%Y'),
 NULL,
 'Milano',
 NULL,
-'Lettore',
+(select typeaccountID from gestionale.type_account where typeaccount_name = 'Lettore'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 (select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Sesto San Giovanni' and a_address = 'Lombardia' and indirizzo.a_number = '37')
 );
@@ -44,7 +44,7 @@ INSERT INTO `gestionale`.`account`
 `death_date`,
 `birth_city`,
 `death_city`,
-`type_account`,
+`typeaccountID`,
 `nationID`,
 `addressID`)
 VALUES
@@ -55,7 +55,7 @@ STR_TO_DATE('01/01/1979', '%d/%m/%Y'),
 NULL,
 'Milano',
 NULL,
-'Scrittore',
+(select typeaccountID from gestionale.type_account where typeaccount_name = 'Scrittore'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 (select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Sesto San Giovanni' and a_address = 'Casiraghi' and indirizzo.a_number = '1')
 );

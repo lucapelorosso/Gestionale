@@ -8,7 +8,7 @@
  
 SET SQL_SAFE_UPDATES = 0;
 DELETE FROM `gestionale`.`account_social`;
-DELETE FROM  `gestionale`.`account`;
+DELETE FROM `gestionale`.`account`;
 DELETE FROM `gestionale`.`address`;
 DELETE FROM `gestionale`.`publisher`;
 
