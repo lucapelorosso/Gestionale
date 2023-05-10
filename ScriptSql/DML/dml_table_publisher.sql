@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-28                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-05-05                         */
+/* Modified: 2023-05-10                         */
 /* Definition: insert data table publisher      */
 /************************************************/
 
@@ -20,7 +20,22 @@ VALUES
 'Delos Digitale',
 STR_TO_DATE('01/01/2013', '%d/%m/%Y'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
-1 
+10
+);
+COMMIT;
+
+INSERT INTO gestionale.publisher
+(
+publisher_name,
+foundation_date,
+nationID,
+addressID)
+VALUES
+(
+'Plutonia Publications',
+STR_TO_DATE('01/01/2000', '%d/%m/%Y'),
+(select nationID from gestionale.nation where nation_name = 'Italia'),
+11
 );
 COMMIT;
 
