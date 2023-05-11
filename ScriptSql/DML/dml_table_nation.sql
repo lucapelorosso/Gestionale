@@ -60,6 +60,18 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('India');
 COMMIT;
 
+
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Danimarca'); 
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Svezia');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Finlandia');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Norvegia');
+COMMIT;
+
+
 /************************************************/
 /* Created: 2023/04/15                          */
 /* Created By: Luca Pelorosso                   */

@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2023-05-05                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-05-05                         */
+/* Modified: 2023-05-11                         */
 /* Definition: Insert data table type_book      */
 /************************************************/
  
@@ -15,6 +15,10 @@ INSERT INTO gestionale.type_book (typebook_name)
 VALUES ('Ebook'); 
 INSERT INTO gestionale.type_book (typebook_name)
 VALUES ('Pdf'); 
+COMMIT;
+
+INSERT INTO gestionale.type_book (typebook_name)
+VALUES ('Mobi'); 
 COMMIT;
 
 /************************************************/
