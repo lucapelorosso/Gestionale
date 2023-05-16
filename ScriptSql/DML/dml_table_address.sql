@@ -87,6 +87,26 @@ VALUES
 'xx');
 COMMIT;
 
+
+INSERT INTO gestionale.address
+(
+`nationID`,
+`cap`,
+`tipo`,
+`city`,
+`a_address`,
+`a_number`)
+VALUES
+(
+(select nationID from gestionale.nation where nation_name = 'Italia'),
+'20099',
+'Largo',
+'Sesto San Giovanni',
+'Lamarmora',
+'9');
+COMMIT;
+
+
 /************************************************/
 /* Created: 2023/04/15                          */
 /* Created By: Luca Pelorosso                   */
