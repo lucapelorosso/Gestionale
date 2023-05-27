@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-28                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-05-11                         */
+/* Modified: 2023-05-27                         */
 /* Definition: insert data table publisher      */
 /************************************************/
 
@@ -37,6 +37,11 @@ STR_TO_DATE('01/01/2000', '%d/%m/%Y'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 11
 );
+COMMIT;
+
+UPDATE gestionale.publisher
+SET publisher_name = 'Delos Digital'
+WHERE publisher_name = 'Delos Digitale';
 COMMIT;
 
 /************************************************/
