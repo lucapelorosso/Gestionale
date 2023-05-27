@@ -17,7 +17,7 @@ VALUES
 (
 'Twitter',
 STR_TO_DATE('01/01/2022', '%d/%m/%Y'),
-(select nationID from gestionale.nation where nation_name = 'U.S.A.'),
+(SELECT nationID FROM gestionale.nation WHERE nation_name = 'U.S.A.'),
 (select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'New York City' and a_address = 'Fittizzio' and indirizzo.a_number = '1')
 );
 
@@ -31,7 +31,7 @@ VALUES
 (
 'Facebook',
 STR_TO_DATE('01/01/2022', '%d/%m/%Y'),
-(select nationID from gestionale.nation where nation_name = 'U.S.A.'),
+(SELECT nationID FROM gestionale.nation WHERE nation_name = 'U.S.A.'),
 (select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'New York City' and a_address = 'Fittizzio' and indirizzo.a_number = '1')
 );
 
@@ -45,7 +45,7 @@ VALUES
 (
 'Instagram',
 STR_TO_DATE('01/01/2022', '%d/%m/%Y'),
-(select nationID from gestionale.nation where nation_name = 'U.S.A.'),
+(SELECT nationID FROM gestionale.nation WHERE nation_name = 'U.S.A.'),
 (select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'New York City' and a_address = 'Fittizzio' and indirizzo.a_number = '1')
 );
 COMMIT;
@@ -58,4 +58,4 @@ COMMIT;
 /* Created By: Luca Pelorosso                   */
 /* Note: Matenere sepre alla fine               */
 /************************************************/
-select * from gestionale.socialnetwork_type 
+SELECT * FROM gestionale.socialnetwork_type 

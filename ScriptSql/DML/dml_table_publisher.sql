@@ -19,7 +19,7 @@ VALUES
 (
 'Delos Digitale',
 STR_TO_DATE('01/01/2013', '%d/%m/%Y'),
-(select nationID from gestionale.nation where nation_name = 'Italia'),
+(SELECT nationID FROM gestionale.nation WHERE nation_name = 'Italia'),
 10
 );
 COMMIT;
@@ -34,7 +34,7 @@ VALUES
 (
 'Plutonia Publications',
 STR_TO_DATE('01/01/2000', '%d/%m/%Y'),
-(select nationID from gestionale.nation where nation_name = 'Italia'),
+(SELECT nationID FROM gestionale.nation WHERE nation_name = 'Italia'),
 11
 );
 COMMIT;
@@ -49,4 +49,4 @@ COMMIT;
 /* Created By: Luca Pelorosso                   */
 /* Note: Matenere sepre alla fine               */
 /************************************************/
-select * from gestionale.publisher 
+SELECT * FROM gestionale.publisher 
