@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                    */
 /* Created: 2023-05-16                           */
 /* Modified by: Luca Pelorosso                   */
-/* Modified: 2023-05-16                          */
+/* Modified: 2023-05-28                          */
 /* Definition: Insert data table bookstore_shops */
 /*************************************************/
 
@@ -20,8 +20,8 @@ VALUES
 'Libreria Presenza',
 STR_TO_DATE('02/01/2000', '%d/%m/%Y'),
 null,
-(select nationID from gestionale.nation where nation_name = 'Italia'),
-(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Sesto San Giovanni' and a_address = 'Lamarmora' and indirizzo.a_number = '9')
+(SELECT nationID FROM gestionale.nation where nation_name = 'Italia'),
+(SELECT indirizzo.addressID FROM gestionale.address indirizzo WHERE indirizzo.city = 'Sesto San Giovanni' AND a_address = 'Lamarmora' AND indirizzo.a_number = '9')
 );
 
 COMMIT;
@@ -30,4 +30,4 @@ COMMIT;
 /* Created By: Luca Pelorosso                   */
 /* Note: Matenere sepre alla fine               */
 /************************************************/
-select * from gestionale.bookstore_shops 
+SELECT * FROM gestionale.bookstore_shops 

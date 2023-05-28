@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-27                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-05-12                         */
+/* Modified: 2023-05-28                         */
 /* Definition: insert data table nation         */
 /************************************************/
  
@@ -77,4 +77,4 @@ COMMIT;
 /* Created By: Luca Pelorosso                   */
 /* Note: Matenere sepre alla fine               */
 /************************************************/
-select * from gestionale.nation 
+SELECT * FROM gestionale.nation 
