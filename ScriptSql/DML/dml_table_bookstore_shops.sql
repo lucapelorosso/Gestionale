@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                    */
 /* Created: 2023-05-16                           */
 /* Modified by: Luca Pelorosso                   */
-/* Modified: 2023-05-28                          */
+/* Modified: 2023-06-01                          */
 /* Definition: Insert data table bookstore_shops */
 /*************************************************/
 
