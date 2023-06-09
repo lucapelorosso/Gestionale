@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2023-05-09                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-05-11                         */
+/* Modified: 2023-06-09                         */
 /* Definition: Insert data table book           */
 /************************************************/
  
@@ -33,6 +33,27 @@ update gestionale.book
 set publisherId = (select publisherID from gestionale.publisher where publisher_name = 'Plutonia Publications'),
 	authorID = (select accountID from gestionale.account where FirstName = 'Alessandro' and LastName = 'Girola')
 where bookID = 1;
+COMMIT;
+
+INSERT INTO `gestionale`.`book`
+(`ISBN_ASIN`,
+`title`,
+`publication_date`,
+`pagenumber`,
+`publisherID`,
+`typebookID`,
+`authorID`,
+`languageID`)
+VALUES (
+'B075WDB4K4',
+'Il Negromante e l''Ulano',
+STR_TO_DATE('08/09/2016', '%d/%m/%Y'),
+93,
+(SELECT `publisher`.`publisherID` FROM `gestionale`.`publisher` where publisher_name = 'Plutonia Publications'),
+(SELECT typebookID FROM  `gestionale`.`type_book` where typebook_name = 'Ebook'),
+(SELECT accountid from `gestionale`.`account` where FirstName = 'Alessandro' and LastName = 'Girola'),
+(SELECT `language`.`languageID` FROM `gestionale`.`language` where language_name = 'Italian')
+);
 COMMIT;
  
 /************************************************/
