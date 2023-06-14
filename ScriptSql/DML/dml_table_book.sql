@@ -56,6 +56,54 @@ STR_TO_DATE('08/09/2016', '%d/%m/%Y'),
 );
 COMMIT;
  
+
+INSERT INTO `gestionale`.`book`
+(`ISBN_ASIN`,
+`title`,
+`publication_date`,
+`pagenumber`,
+`publisherID`,
+`typebookID`,
+`authorID`,
+`languageID`)
+VALUES (
+'B01MG12PAE',
+'La strega e l''Ulano',
+STR_TO_DATE('31/10/2016', '%d/%m/%Y'),
+128,
+(SELECT `publisher`.`publisherID` FROM `gestionale`.`publisher` where publisher_name = 'Plutonia Publications'),
+(SELECT typebookID FROM  `gestionale`.`type_book` where typebook_name = 'Ebook'),
+(SELECT accountid from `gestionale`.`account` where FirstName = 'Alessandro' and LastName = 'Girola'),
+(SELECT `language`.`languageID` FROM `gestionale`.`language` where language_name = 'Italian')
+);
+
+
+INSERT INTO `gestionale`.`book`
+(`ISBN_ASIN`,
+`title`,
+`publication_date`,
+`pagenumber`,
+`publisherID`,
+`typebookID`,
+`authorID`,
+`languageID`)
+VALUES (
+'B09HV6LRVS',
+'Tra i fiumi',
+STR_TO_DATE('10/10/2021', '%d/%m/%Y'),
+128,
+(SELECT `publisher`.`publisherID` FROM `gestionale`.`publisher` where publisher_name = 'Plutonia Publications'),
+(SELECT typebookID FROM  `gestionale`.`type_book` where typebook_name = 'Ebook'),
+(SELECT accountid from `gestionale`.`account` where FirstName = 'Alessandro' and LastName = 'Girola'),
+(SELECT `language`.`languageID` FROM `gestionale`.`language` where language_name = 'Italian')
+);
+COMMIT;
+ 
+ UPDATE `gestionale`.`book`
+ SET pagenumber = 119
+ WHERE bookId = 4;
+ COMMIT;
+ 
 /************************************************/
 /* Created: 2023-05-08                         */
 /* Created By: Luca Pelorosso                   */
