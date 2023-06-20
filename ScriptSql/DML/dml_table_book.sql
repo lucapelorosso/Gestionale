@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2023-05-09                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-06-09                         */
+/* Modified: 2023-06-20                         */
 /* Definition: Insert data table book           */
 /************************************************/
  
@@ -98,11 +98,32 @@ STR_TO_DATE('10/10/2021', '%d/%m/%Y'),
 (SELECT `language`.`languageID` FROM `gestionale`.`language` where language_name = 'Italian')
 );
 COMMIT;
- 
- UPDATE `gestionale`.`book`
- SET pagenumber = 119
- WHERE bookId = 4;
- COMMIT;
+
+INSERT INTO `gestionale`.`book`
+(`ISBN_ASIN`,
+`title`,
+`publication_date`,
+`pagenumber`,
+`publisherID`,
+`typebookID`,
+`authorID`,
+`languageID`)
+VALUES (
+'B08TR54G4B',
+'Hirpi Sorani',
+STR_TO_DATE('21/01/2021', '%d/%m/%Y'),
+65,
+(SELECT `publisher`.`publisherID` FROM `gestionale`.`publisher` where publisher_name = 'Plutonia Publications'),
+(SELECT typebookID FROM  `gestionale`.`type_book` where typebook_name = 'Ebook'),
+(SELECT accountid from `gestionale`.`account` where FirstName = 'Alessandro' and LastName = 'Girola'),
+(SELECT `language`.`languageID` FROM `gestionale`.`language` where language_name = 'Italian')
+);
+COMMIT;
+
+UPDATE `gestionale`.`book`
+SET pagenumber = 119
+WHERE bookId = 4;
+COMMIT;
  
 /************************************************/
 /* Created: 2023-05-08                         */
