@@ -18,6 +18,6 @@ COMMIT;
 /************************************************/
 /* Created: 2023-05-05                          */
 /* Created By: Luca Pelorosso                   */
-/* Note: Matenere sepre alla fine               */
+/* Note: Matenere sempre alla fine              */
 /************************************************/
 SELECT * FROM gestionale.type_account 

@@ -56,6 +56,6 @@ COMMIT;
 /************************************************/
 /* Created: 2023/04/15                          */
 /* Created By: Luca Pelorosso                   */
-/* Note: Matenere sepre alla fine               */
+/* Note: Matenere sempre alla fine              */
 /************************************************/
 SELECT * FROM gestionale.socialnetwork_type 
