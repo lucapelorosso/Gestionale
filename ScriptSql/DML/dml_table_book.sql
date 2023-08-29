@@ -167,6 +167,47 @@ STR_TO_DATE('22/10/2021', '%d/%m/%Y'),
 (SELECT `language`.`languageID` FROM `gestionale`.`language` where language_name = 'Italian')
 );
 COMMIT;
+
+INSERT INTO `gestionale`.`book`
+(`ISBN_ASIN`,
+`title`,
+`publication_date`,
+`pagenumber`,
+`publisherID`,
+`typebookID`,
+`authorID`,
+`languageID`)
+VALUES (
+'B088QH2XXZ',
+'La festa di Leva (Racconti fuori serie Vol. 3)',
+STR_TO_DATE('16/05/2020', '%d/%m/%Y'),
+23,
+(SELECT `publisher`.`publisherID` FROM `gestionale`.`publisher` where publisher_name = 'Taccuino da Altri Mondi'),
+(SELECT typebookID FROM  `gestionale`.`type_book` where typebook_name = 'Ebook'),
+(SELECT accountid from `gestionale`.`account` where FirstName = 'Fabrizio' and LastName = 'Borgio'),
+(SELECT `language`.`languageID` FROM `gestionale`.`language` where language_name = 'Italian')
+);
+
+INSERT INTO `gestionale`.`book`
+(`ISBN_ASIN`,
+`title`,
+`publication_date`,
+`pagenumber`,
+`publisherID`,
+`typebookID`,
+`authorID`,
+`languageID`)
+VALUES (
+'B085VZL3L8',
+'Codice nero (Racconti fuori serie Vol. 1)',
+STR_TO_DATE('12/03/2020', '%d/%m/%Y'),
+12,
+(SELECT `publisher`.`publisherID` FROM `gestionale`.`publisher` where publisher_name = 'Taccuino da Altri Mondi'),
+(SELECT typebookID FROM  `gestionale`.`type_book` where typebook_name = 'Ebook'),
+(SELECT accountid from `gestionale`.`account` where FirstName = 'Fabrizio' and LastName = 'Borgio'),
+(SELECT `language`.`languageID` FROM `gestionale`.`language` where language_name = 'Italian')
+);
+COMMIT;
  
 /************************************************/
 /* Created: 2023-05-08                          */
