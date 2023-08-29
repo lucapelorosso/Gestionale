@@ -146,6 +146,28 @@ STR_TO_DATE('27/03/2014', '%d/%m/%Y'),
 );
 COMMIT;
  
+
+INSERT INTO `gestionale`.`book`
+(`ISBN_ASIN`,
+`title`,
+`publication_date`,
+`pagenumber`,
+`publisherID`,
+`typebookID`,
+`authorID`,
+`languageID`)
+VALUES (
+'B09K5SZQVS',
+'Ultimo giorno a Acquanera',
+STR_TO_DATE('22/10/2021', '%d/%m/%Y'),
+34,
+(SELECT `publisher`.`publisherID` FROM `gestionale`.`publisher` where publisher_name = 'Taccuino da Altri Mondi'),
+(SELECT typebookID FROM  `gestionale`.`type_book` where typebook_name = 'Ebook'),
+(SELECT accountid from `gestionale`.`account` where FirstName = 'Fabrizio' and LastName = 'Borgio'),
+(SELECT `language`.`languageID` FROM `gestionale`.`language` where language_name = 'Italian')
+);
+COMMIT;
+ 
 /************************************************/
 /* Created: 2023-05-08                          */
 /* Created By: Luca Pelorosso                   */
