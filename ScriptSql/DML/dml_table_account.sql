@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-11                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-06-14                         */
+/* Modified: 2023-10-03                         */
 /* Definition: insert data table account        */
 /************************************************/
 
@@ -105,6 +105,31 @@ VALUES
 STR_TO_DATE('01/01/1975', '%d/%m/%Y'),
 NULL,
 'Asti',
+NULL,
+(select typeaccountID from gestionale.type_account where typeaccount_name = 'Scrittore'),
+(select nationID from gestionale.nation where nation_name = 'Italia'),
+15
+);
+COMMIT;
+
+INSERT INTO `gestionale`.`account`
+( 
+`LastName`,
+`FirstName`,
+`birth_date`,
+`death_date`,
+`birth_city`,
+`death_city`,
+`typeaccountID`,
+`nationID`,
+`addressID`)
+VALUES
+( 
+'--',
+'Shanmei',
+STR_TO_DATE('01/01/1969', '%d/%m/%Y'),
+NULL,
+'Chieri',
 NULL,
 (select typeaccountID from gestionale.type_account where typeaccount_name = 'Scrittore'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
