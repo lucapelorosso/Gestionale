@@ -34,6 +34,11 @@ INSERT INTO gestionale.language (language_name)
 VALUES ('Danish'); 
 COMMIT;
 
+INSERT INTO gestionale.language (language_name)
+VALUES ('Holland'); 
+INSERT INTO gestionale.language (language_name)
+VALUES ('Greek'); 
+COMMIT;
 
 /************************************************/
 /* Created: 2023/05/09                          */

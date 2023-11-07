@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-11                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-05-05                         */
+/* Modified: 2023-05-06                         */
 /* Definition: Creation table account           */
 /************************************************/
 SET SQL_SAFE_UPDATES = 0;
