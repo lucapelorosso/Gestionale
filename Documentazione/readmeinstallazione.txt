@@ -15,8 +15,11 @@
 /* 2)  ddl_table_type_account.sql
 /* 3)  dml_table_type_account.sql
 /* 4)  ddl_table_nation.sql
-/* 5)  ddl_table_language.sql
-/* 6)  ddl_table_type_book.sql
+/* 5)  dml_table_nation.sql
+/* 6)  ddl_table_language.sql
+/* 7)  dml_table_language.sql
+/* 8)  ddl_table_type_book.sql
+/* 9)  dml_table_type_book.sql
 
 ddl_table_account.sql
 ddl_drop_table.sql
@@ -36,9 +39,9 @@ dml_table_account.sql
 dml_table_address.sql
 dml_table_book.sql
 dml_table_bookstore_shops.sql
-dml_table_language.sql
-dml_table_nation.sql
+
+
 dml_table_publisher.sql
 dml_table_socialnetwork_type.sql
 
-dml_table_type_book.sql
+
