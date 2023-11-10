@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-11-12                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-11-09                         */
+/* Modified: 2023-11-11                         */
 /* Definition: Step Lancio scrip sql            */
 /************************************************/
 
