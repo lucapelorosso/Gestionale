@@ -2,16 +2,11 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-28                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-06-28                         */
+/* Modified: 2023-11-11                         */
 /* Definition: insert data table address        */
 /************************************************/
 
 SET SQL_SAFE_UPDATES = 0;
-
-DELETE FROM `gestionale`.`account_social`;
-DELETE FROM `gestionale`.`account`;
-DELETE FROM `gestionale`.`publisher`;
-DELETE FROM `gestionale`.`socialnetwork_type`;
 
 INSERT INTO gestionale.address
 (
@@ -48,8 +43,6 @@ VALUES
 'New York City',
 'Fittizzio',
 '1');
-COMMIT;
-
 
 INSERT INTO gestionale.address
 (
@@ -67,7 +60,6 @@ VALUES
 'Milano',
 'Bonomelli',
 '6/4');
-COMMIT;
  
 INSERT INTO gestionale.address
 (
@@ -85,7 +77,6 @@ VALUES
 'Pregana Milanese',
 'xx',
 'xx');
-COMMIT;
 
 
 INSERT INTO gestionale.address
@@ -104,7 +95,6 @@ VALUES
 'Sesto San Giovanni',
 'Lamarmora',
 '9');
-COMMIT;
 
 INSERT INTO gestionale.address
 (
@@ -122,7 +112,6 @@ VALUES
 'Sesto San Giovanni',
 'Martiri di via Fani',
 '1');
-COMMIT;
 
 INSERT INTO gestionale.address
 (
@@ -140,7 +129,6 @@ VALUES
 'Sesto San Giovanni',
 'Giuseppe Rovani',
 '242');
-COMMIT;
 
 INSERT INTO gestionale.address
 (

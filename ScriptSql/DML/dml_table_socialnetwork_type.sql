@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                         */
 /* Created: 2022-10-28                                */
 /* Modified by: Luca Pelorosso                        */
-/* Modified: 2023-02-28                               */
+/* Modified: 2023-11-11                               */
 /* Definition: insert data table socialnetwork_type   */
 /******************************************************/
 
@@ -49,8 +49,6 @@ STR_TO_DATE('01/01/2022', '%d/%m/%Y'),
 (SELECT indirizzo.addressID FROM gestionale.address indirizzo WHERE indirizzo.city = 'New York City' and a_address = 'Fittizzio' and indirizzo.a_number = '1')
 );
 COMMIT;
-
-
 
 
 /************************************************/
