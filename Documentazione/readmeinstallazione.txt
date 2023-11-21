@@ -24,8 +24,9 @@
 /* 010)  dml_table_address.sql
 /* 011)  ddl_table_socialnetwork_type.sql
 /* 012)  dml_table_socialnetwork_type.sql
+/* 013)  ddl_table_account.sql
+/* 014)  dml_table_account.sql
 
-ddl_table_account.sql
 ddl_drop_table.sql
 ddl_table_account_social.sql
 
@@ -39,7 +40,7 @@ ddl_view_bookstore_shops.sql
 
 -- dml
 dml_creazione_user.sql
-dml_table_account.sql
+
 
 dml_table_book.sql
 dml_table_bookstore_shops.sql

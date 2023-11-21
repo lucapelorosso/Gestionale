@@ -2,14 +2,11 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-11                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-05-06                         */
+/* Modified: 2023-11-21                         */
 /* Definition: Creation table account           */
 /************************************************/
 SET SQL_SAFE_UPDATES = 0;
-DROP TABLE `gestionale`.`account_social`;
-DROP TABLE `gestionale`.`socialnetwork_type`;
-DROP TABLE `gestionale`.`type_account`;
-DROP TABLE `gestionale`.`account`;
+
 create table gestionale.account (
     accountID mediumint NOT NULL AUTO_INCREMENT,
     LastName varchar(255),

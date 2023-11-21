@@ -2,15 +2,13 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-11                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-11-09                         */
+/* Modified: 2023-11-21                         */
 /* Definition: insert data table account        */
 /************************************************/
 
 SET SQL_SAFE_UPDATES = 0;
 
-DELETE FROM  `gestionale`.`account_social`;
 DELETE FROM  `gestionale`.`account`;
-
 INSERT INTO `gestionale`.`account`
 ( 
 `LastName`,
@@ -83,7 +81,7 @@ NULL,
 NULL,
 (select typeaccountID from gestionale.type_account where typeaccount_name = 'Scrittore'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
-11
+(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Pregana Milanese' and a_address = 'xx' and indirizzo.a_number = 'xx')
 );
 COMMIT;
 
@@ -108,7 +106,7 @@ NULL,
 NULL,
 (select typeaccountID from gestionale.type_account where typeaccount_name = 'Scrittore'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
-15
+(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Costigliole D''Asti' and a_address = 'xx' and indirizzo.a_number = 'xx')
 );
 COMMIT;
 
@@ -133,7 +131,7 @@ NULL,
 NULL,
 (select typeaccountID from gestionale.type_account where typeaccount_name = 'Scrittore'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
-15
+(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Costigliole D''Asti' and a_address = 'xx' and indirizzo.a_number = 'xx')
 );
 COMMIT;
 
