@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-28                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-08-30                         */
+/* Modified: 2023-11-29                         */
 /* Definition: insert data table publisher      */
 /************************************************/
 
@@ -17,10 +17,10 @@ nationID,
 addressID)
 VALUES
 (
-'Delos Digitale',
+'Delos Digital',
 STR_TO_DATE('01/01/2013', '%d/%m/%Y'),
 (SELECT nationID FROM gestionale.nation WHERE nation_name = 'Italia'),
-10
+(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Milano' and indirizzo.tipo='Piazza' and indirizzo.a_address = 'Bonomelli' and indirizzo.a_number = '6/4' )
 );
 COMMIT;
 
@@ -35,13 +35,8 @@ VALUES
 'Plutonia Publications',
 STR_TO_DATE('01/01/2000', '%d/%m/%Y'),
 (SELECT nationID FROM gestionale.nation WHERE nation_name = 'Italia'),
-11
+(SELECT indirizzo.addressID from gestionale.address indirizzo where indirizzo.city like 'Pregana Milanese%' )
 );
-COMMIT;
-
-UPDATE gestionale.publisher
-SET publisher_name = 'Delos Digital'
-WHERE publisher_name = 'Delos Digitale';
 COMMIT;
 
 INSERT INTO gestionale.publisher
@@ -55,15 +50,9 @@ VALUES
 'Taccuino da Altri Mondi',
 STR_TO_DATE('01/01/2000', '%d/%m/%Y'),
 (SELECT nationID FROM gestionale.nation WHERE nation_name = 'Italia'),
-11
+(SELECT indirizzo.addressID from gestionale.address indirizzo where indirizzo.city like 'Costigliole%' ) 
 );
 COMMIT;
-
-UPDATE gestionale.publisher
-SET addressID = 15
-WHERE publisherID = 5;
-COMMIT;
-
 
 /************************************************/
 /* Created: 2023/04/15                          */

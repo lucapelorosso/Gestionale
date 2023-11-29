@@ -26,13 +26,15 @@
 /* 012)  dml_table_socialnetwork_type.sql
 /* 013)  ddl_table_account.sql
 /* 014)  dml_table_account.sql
+/* 015)  ddl_table_publisher.sql
+/* 016)  dml_table_publisher.sql
 
 ddl_drop_table.sql
 ddl_table_account_social.sql
 
 ddl_table_book.sql
 ddl_table_bookstore_shops.sql
-ddl_table_publisher.sql
+
 
 ddl_view_bookstore_shops.sql
 
@@ -46,7 +48,7 @@ dml_table_book.sql
 dml_table_bookstore_shops.sql
 
 
-dml_table_publisher.sql
+
 
 
 
