@@ -15,12 +15,12 @@
 /* 001)  ddl_table_type_account.sql
 /* 002)  dml_table_type_account.sql
 /* 003)  ddl_table_nation.sql
-/* 004)  dml_table_nation.sql --
+/* 004)  dml_table_nation.sql 
 /* 005)  ddl_table_language.sql
 /* 006)  dml_table_language.sql
 /* 007)  ddl_table_type_book.sql
 /* 008)  dml_table_type_book.sql
-/* 009)  ddl_table_address.sql
+/* 009)  ddl_table_address.sql -- da qui
 /* 010)  dml_table_address.sql
 /* 011)  ddl_table_socialnetwork_type.sql
 /* 012)  dml_table_socialnetwork_type.sql
