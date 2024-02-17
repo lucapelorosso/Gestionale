@@ -2,16 +2,18 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-27                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-12-17                        */
+/* Modified: 2024-02-17                         */
 /* Definition: insert data table nation         */
 /************************************************/
  
 SET SQL_SAFE_UPDATES = 0;
 DELETE FROM gestionale.nation;
 
-
+/* Paesi Europa*/
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Italia'); 
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Irlanda'); 
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Francia'); 
 INSERT INTO gestionale.nation (nation_name)
@@ -21,11 +23,6 @@ VALUES ('Spagna');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Svizzera'); 
 INSERT INTO gestionale.nation (nation_name)
-VALUES ('U.S.A.'); 
-INSERT INTO gestionale.nation (nation_name)
-VALUES ('Canada');
-INSERT INTO gestionale.nation (nation_name)
-VALUES ('Messico'); 
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Portogallo');
 INSERT INTO gestionale.nation (nation_name)
@@ -36,14 +33,6 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('Olanda');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Belgio');
-INSERT INTO gestionale.nation (nation_name)
-VALUES ('Cina'); 
-INSERT INTO gestionale.nation (nation_name)
-VALUES ('Giappone');
-INSERT INTO gestionale.nation (nation_name)
-VALUES ('Corea del Sud');
-INSERT INTO gestionale.nation (nation_name)
-VALUES ('India');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Danimarca'); 
 INSERT INTO gestionale.nation (nation_name)
@@ -56,6 +45,13 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('Russia');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Islanda');
+
+/* Paesi Americhe*/
+VALUES ('U.S.A.'); 
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Canada');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Messico'); 
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Brasile');
 INSERT INTO gestionale.nation (nation_name)
@@ -66,6 +62,18 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('Perù');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('El Salvador');
+
+/* Paesi Asia*/
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Cina'); 
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Giappone');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Corea del Sud');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('India');
+
+
 COMMIT;
 
 /************************************************/
