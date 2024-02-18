@@ -51,6 +51,8 @@ VALUES ('Argentina');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Brasile');
 INSERT INTO gestionale.nation (nation_name)
+VALUES ('Bolivia');
+INSERT INTO gestionale.nation (nation_name)
 VALUES ('Canada');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Cile');
