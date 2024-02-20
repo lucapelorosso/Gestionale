@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2023-05-09                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-02-19                         */
+/* Modified: 2024-02-20                         */
 /* Definition: insert data table language       */
 /************************************************/
  
@@ -12,11 +12,14 @@ VALUES ('Italian');
 INSERT INTO gestionale.language (language_name)
 VALUES ('Chinese'); 
 INSERT INTO gestionale.language (language_name)
+VALUES ('Danish'); 
+INSERT INTO gestionale.language (language_name)
 VALUES ('English'); 
 INSERT INTO gestionale.language (language_name)
 VALUES ('French'); 
 INSERT INTO gestionale.language (language_name)
 VALUES ('German'); 
+INSERT INTO gestionale.language (language_name)
 VALUES ('Holland'); 
 INSERT INTO gestionale.language (language_name)
 VALUES ('Greek'); 
@@ -26,9 +29,6 @@ INSERT INTO gestionale.language (language_name)
 VALUES ('Portuguese'); 
 INSERT INTO gestionale.language (language_name)
 VALUES ('Korean'); 
-INSERT INTO gestionale.language (language_name)
-VALUES ('Danish'); 
-INSERT INTO gestionale.language (language_name)
 INSERT INTO gestionale.language (language_name)
 VALUES ('Swedish'); 
 INSERT INTO gestionale.language (language_name)
