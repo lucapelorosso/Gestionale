@@ -20,9 +20,9 @@ VALUES ('French');
 INSERT INTO gestionale.language (language_name)
 VALUES ('German'); 
 INSERT INTO gestionale.language (language_name)
-VALUES ('Holland'); 
-INSERT INTO gestionale.language (language_name)
 VALUES ('Greek'); 
+INSERT INTO gestionale.language (language_name)
+VALUES ('Holland'); 
 INSERT INTO gestionale.language (language_name)
 VALUES ('Spanish'); 
 INSERT INTO gestionale.language (language_name)
