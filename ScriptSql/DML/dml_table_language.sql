@@ -30,6 +30,8 @@ VALUES ('Norwegian');
 INSERT INTO gestionale.language (language_name)
 VALUES ('Spanish'); 
 INSERT INTO gestionale.language (language_name)
+VALUES ('Russina'); 
+INSERT INTO gestionale.language (language_name)
 VALUES ('Portuguese'); 
 INSERT INTO gestionale.language (language_name)
 VALUES ('Korean'); 
