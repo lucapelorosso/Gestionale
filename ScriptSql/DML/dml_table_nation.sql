@@ -94,7 +94,10 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('India');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Indonesia');
-
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Iran');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Pakistan');
 COMMIT;
 
 /************************************************/
