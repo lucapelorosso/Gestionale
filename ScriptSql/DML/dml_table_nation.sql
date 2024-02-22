@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-27                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-02-21                         */
+/* Modified: 2024-02-22                         */
 /* Definition: insert data table nation         */
 /************************************************/
  
@@ -11,7 +11,13 @@ DELETE FROM gestionale.nation;
 
 /* Paesi Europa*/
 INSERT INTO gestionale.nation (nation_name)
+VALUES ('Albania');
+INSERT INTO gestionale.nation (nation_name)
 VALUES ('Belgio');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Bulgaria');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Croazia'); 
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Danimarca');
 INSERT INTO gestionale.nation (nation_name)
@@ -29,10 +35,6 @@ VALUES ('Irlanda');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Islanda');
 INSERT INTO gestionale.nation (nation_name)
-VALUES ('Spagna'); 
-INSERT INTO gestionale.nation (nation_name)
-VALUES ('Svizzera'); 
-INSERT INTO gestionale.nation (nation_name)
 VALUES ('Portogallo');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Olanda');
@@ -42,6 +44,10 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('Norvegia');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Russia');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Slovenia');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Spagna'); 
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Svezia');
 INSERT INTO gestionale.nation (nation_name)
