@@ -15,7 +15,8 @@ VALUES ('Albania');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Belgio');
 INSERT INTO gestionale.nation (nation_name)
-VALUES ('Belgio');INSERT INTO gestionale.nation (nation_name)
+VALUES ('Belgio');INSERT INTO 
+gestionale.nation (nation_name)
 VALUES ('Bielorussia');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Croazia'); 
@@ -55,6 +56,8 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('Svezia');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Svizzera');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Ucraina');
 
 /* Paesi Americhe*/
 INSERT INTO gestionale.nation (nation_name)
@@ -101,6 +104,8 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('Iran');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Pakistan');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Vietman');
 COMMIT;
 
 /************************************************/
