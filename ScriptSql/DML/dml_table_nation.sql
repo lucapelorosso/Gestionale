@@ -122,11 +122,17 @@ COMMIT;
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Egitto');
 INSERT INTO gestionale.nation (nation_name)
+VALUES ('Eritrea');
+INSERT INTO gestionale.nation (nation_name)
 VALUES ('Etiopia');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Libia');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Marocco');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Niger');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Somalia');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Sud Africa');
 INSERT INTO gestionale.nation (nation_name)
