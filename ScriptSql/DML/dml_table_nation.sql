@@ -113,6 +113,10 @@ VALUES ('Indonesia');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Iran');
 INSERT INTO gestionale.nation (nation_name)
+VALUES ('Iraq');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Mongolia');
+INSERT INTO gestionale.nation (nation_name)
 VALUES ('Pakistan');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Vietman');
