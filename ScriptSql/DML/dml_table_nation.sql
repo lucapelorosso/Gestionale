@@ -124,11 +124,15 @@ COMMIT;
 
 /* Paesi Africa*/
 INSERT INTO gestionale.nation (nation_name)
+VALUES ('Angola');
+INSERT INTO gestionale.nation (nation_name)
 VALUES ('Egitto');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Eritrea');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Etiopia');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Gabon');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Libia');
 INSERT INTO gestionale.nation (nation_name)
