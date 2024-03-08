@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-27                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-02-29                         */
+/* Modified: 2024-03-08                         */
 /* Definition: insert data table nation         */
 /************************************************/
  
@@ -145,6 +145,10 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('Sud Africa');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Tunisia');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Zambia');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Zimbabwe');
 COMMIT;
 
 /************************************************/
