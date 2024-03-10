@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-11-12                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-11-11                         */
+/* Modified: 2024-03-10                         */
 /* Definition: Step Lancio scrip sql            */
 /************************************************/
 
@@ -20,14 +20,16 @@
 /* 006)  dml_table_language.sql
 /* 007)  ddl_table_type_book.sql
 /* 008)  dml_table_type_book.sql
-/* 009)  ddl_table_address.sql -- da qui
+/* 009)  ddl_table_address.sql  
 /* 010)  dml_table_address.sql
-/* 011)  ddl_table_socialnetwork_type.sql
-/* 012)  dml_table_socialnetwork_type.sql
-/* 013)  ddl_table_account.sql
-/* 014)  dml_table_account.sql
-/* 015)  ddl_table_publisher.sql
-/* 016)  dml_table_publisher.sql
+/* 011)  ddl_table_city.sql
+/* 012)  dml_table_city.sql
+/* 013)  ddl_table_socialnetwork_type.sql
+/* 014)  dml_table_socialnetwork_type.sql
+/* 015)  ddl_table_account.sql
+/* 016)  dml_table_account.sql
+/* 017)  ddl_table_publisher.sql
+/* 018)  dml_table_publisher.sql
 
 ddl_drop_table.sql
 ddl_table_account_social.sql
