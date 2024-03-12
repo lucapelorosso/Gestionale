@@ -27,4 +27,14 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Nizza');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Parigi');
+
+/* Città Spagnole */
+INSERT INTO gestionale.city (city_name)
+VALUES ('Barcellona');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Bilbao');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Madrid');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Bilmao');
 commit;
