@@ -12,12 +12,19 @@ SET SQL_SAFE_UPDATES = 0;
 INSERT INTO gestionale.city (city_name)
 VALUES ('Milano'); 
 INSERT INTO gestionale.city (city_name)
+VALUES ('Roma');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Torino');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Sesto San Giovanni');
 
 /* Città Francesi */
+INSERT INTO gestionale.city (city_name)
 VALUES ('Lione');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Marsiglia');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Nizza');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Parigi');
 commit;
