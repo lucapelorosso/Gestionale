@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-03-12                         */
+/* Modified: 2024-03-19                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -10,15 +10,23 @@
 /* Città Italiane */
 SET SQL_SAFE_UPDATES = 0;
 INSERT INTO gestionale.city (city_name)
+VALUES ('Bergamo');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Brescia');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Genova');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Milano'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Roma');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Savona');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Sesto San Giovanni');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Torino');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Vado Ligure');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Verona');
 
