@@ -16,11 +16,15 @@ VALUES ('Brescia');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Genova');
 INSERT INTO gestionale.city (city_name)
+VALUES ('La Spezia');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Milano'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Roma');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Savona');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Segrate');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Sesto San Giovanni');
 INSERT INTO gestionale.city (city_name)
