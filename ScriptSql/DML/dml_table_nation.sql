@@ -49,6 +49,8 @@ VALUES ('Portogallo');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Polonia'); 
 INSERT INTO gestionale.nation (nation_name)
+VALUES ('Principato di Monaco'); 
+INSERT INTO gestionale.nation (nation_name)
 VALUES ('Romania');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Russia');
@@ -68,6 +70,8 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('Svizzera');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Ucraina');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Ungheria');
 
 /* Paesi Americhe*/
 INSERT INTO gestionale.nation (nation_name)
