@@ -52,6 +52,16 @@ VALUES ('Nizza');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Parigi');
 
+/* Città Portoghesi */
+INSERT INTO gestionale.city (city_name)
+VALUES ('Avero');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Faro');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Lisbona');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Porto');
+
 /* Città Spagnole */
 INSERT INTO gestionale.city (city_name)
 VALUES ('Alicante');
