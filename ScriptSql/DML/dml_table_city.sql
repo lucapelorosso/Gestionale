@@ -12,15 +12,21 @@ SET SQL_SAFE_UPDATES = 0;
 INSERT INTO gestionale.city (city_name)
 VALUES ('Bergamo');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Bologna');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Brescia');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Genova');
 INSERT INTO gestionale.city (city_name)
 VALUES ('La Spezia');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Livorno');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Melzo'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Milano'); 
+INSERT INTO gestionale.city (city_name)
+VALUES ('Modena'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Roma');
 INSERT INTO gestionale.city (city_name)
@@ -35,6 +41,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Trezzo sull''adda');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Vado Ligure');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Viterbo');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Verona');
 
