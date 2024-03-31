@@ -10,6 +10,10 @@
 /* Città Italiane */
 SET SQL_SAFE_UPDATES = 0;
 INSERT INTO gestionale.city (city_name)
+VALUES ('Alassio');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Arenzano');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Bergamo');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Bologna');
