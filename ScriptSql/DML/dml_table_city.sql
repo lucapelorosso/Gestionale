@@ -36,6 +36,10 @@ VALUES ('Milano');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Modena'); 
 INSERT INTO gestionale.city (city_name)
+VALUES ('Reggio Calabria');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Reggio Emilia');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Roma');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Savona');
