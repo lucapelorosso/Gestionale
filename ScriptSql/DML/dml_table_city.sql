@@ -29,12 +29,20 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('La Spezia');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Livorno');
-INSERT INTO gestionale.city (city_name)
+INSERT INTO gestionale.city (city_name)z
 VALUES ('Melzo'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Milano'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Modena'); 
+INSERT INTO gestionale.city (city_name)
+VALUES ('Monza'); s
+INSERT INTO gestionale.city (city_name)
+VALUES ('Napoli'); 
+INSERT INTO gestionale.city (city_name)
+VALUES ('Otranto'); 
+INSERT INTO gestionale.city (city_name)
+VALUES ('Padova'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Reggio Calabria');
 INSERT INTO gestionale.city (city_name)
