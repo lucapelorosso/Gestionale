@@ -2,13 +2,15 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-04-03                         */
+/* Modified: 2024-04-04                         */
 /* Definition: Creation table city              */
 /************************************************/
 
 
 /* Città Italiane */
 SET SQL_SAFE_UPDATES = 0;
+INSERT INTO gestionale.city (city_name)
+VALUES ('Abbiategrasso');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Alassio');
 INSERT INTO gestionale.city (city_name)
@@ -36,9 +38,11 @@ VALUES ('Milano');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Modena'); 
 INSERT INTO gestionale.city (city_name)
-VALUES ('Monza'); s
+VALUES ('Monza');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Napoli'); 
+INSERT INTO gestionale.city (city_name)
+VALUES ('Noli'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Otranto'); 
 INSERT INTO gestionale.city (city_name)
