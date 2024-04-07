@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-04-06                         */
+/* Modified: 2024-04-07                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -77,6 +77,10 @@ VALUES ('Verona');
 /* Città Francesi */
 INSERT INTO gestionale.city (city_name)
 VALUES ('Avignone');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Biarritz');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Capbreton');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Lione');
 INSERT INTO gestionale.city (city_name)
