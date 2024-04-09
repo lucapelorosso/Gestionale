@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-04-07                         */
+/* Modified: 2024-04-09                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -94,9 +94,13 @@ VALUES ('Parigi');
 
 /* Città Portoghesi */
 INSERT INTO gestionale.city (city_name)
+VALUES ('Algoz');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Avero');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Faro');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Ferragudo');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Lisbona');
 INSERT INTO gestionale.city (city_name)
