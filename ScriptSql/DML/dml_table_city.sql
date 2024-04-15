@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-04-14                         */
+/* Modified: 2024-04-15                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -140,6 +140,10 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Pamplona');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Santander');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Saragozza');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Tolosa');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Valencia');
 commit;
