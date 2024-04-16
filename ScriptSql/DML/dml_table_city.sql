@@ -2,10 +2,9 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-04-15                         */
+/* Modified: 2024-04-16                         */
 /* Definition: Creation table city              */
 /************************************************/
-
 
 /* Città Italiane */
 SET SQL_SAFE_UPDATES = 0;
@@ -99,6 +98,10 @@ VALUES ('Parigi');
 /* Città Olandesi */
 INSERT INTO gestionale.city (city_name)
 VALUES ('Amsterdam');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Eindhoven');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Hengelo');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Nimega');
 INSERT INTO gestionale.city (city_name)
