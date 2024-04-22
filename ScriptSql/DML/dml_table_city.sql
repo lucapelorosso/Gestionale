@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-04-21                         */
+/* Modified: 2024-04-22                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -163,6 +163,10 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Lipsia');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Monaco di Baviera');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Norimberga');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Stoccarda');
 commit;
 
 /* Città Svizzere */
