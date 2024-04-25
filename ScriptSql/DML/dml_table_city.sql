@@ -13,6 +13,8 @@ VALUES ('Abbiategrasso');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Alassio');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Agrate');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Arenzano');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Arese');
@@ -78,6 +80,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Vado Ligure');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Viterbo');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Vimercate');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Verona');
 
