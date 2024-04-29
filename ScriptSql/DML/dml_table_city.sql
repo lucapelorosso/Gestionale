@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-04-24                         */
+/* Modified: 2024-04-29                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -179,9 +179,13 @@ commit;
 
 /* Città Svizzere */
 INSERT INTO gestionale.city (city_name)
+VALUES ('Bellinzona');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Berna');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Chiasso');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Locarno');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Losanna');
 INSERT INTO gestionale.city (city_name)
