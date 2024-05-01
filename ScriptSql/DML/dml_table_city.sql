@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-04-29                         */
+/* Modified: 2024-05-01                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -57,9 +57,13 @@ VALUES ('Noli');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Nova Milanese'); 
 INSERT INTO gestionale.city (city_name)
+VALUES ('Osimo'); 
+INSERT INTO gestionale.city (city_name)
 VALUES ('Otranto'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Padova'); 
+INSERT INTO gestionale.city (city_name)
+VALUES ('Porto Recanati'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Reggio Calabria');
 INSERT INTO gestionale.city (city_name)
