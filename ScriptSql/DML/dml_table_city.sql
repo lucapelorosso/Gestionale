@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-05-01                         */
+/* Modified: 2024-05-03                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -95,7 +95,11 @@ VALUES ('Avignone');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Biarritz');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Bordeaux');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Capbreton');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Cognac');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Lione');
 INSERT INTO gestionale.city (city_name)
