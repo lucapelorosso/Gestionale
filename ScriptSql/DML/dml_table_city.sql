@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-05-03                         */
+/* Modified: 2024-05-08                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -28,6 +28,10 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Brescia');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Bresso');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Cassina De Pecchi');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Cernusco sul Naviglio);
 INSERT INTO gestionale.city (city_name)
 VALUES ('Cinisello Balsamo');
 INSERT INTO gestionale.city (city_name)
