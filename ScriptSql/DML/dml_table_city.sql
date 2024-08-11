@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-05-24                         */
+/* Modified: 2024-08-11                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -150,7 +150,9 @@ VALUES ('Utrech');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Algoz');
 INSERT INTO gestionale.city (city_name)
-VALUES ('Avero');
+VALUES ('Averio');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Coimbra');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Faro');
 INSERT INTO gestionale.city (city_name)
@@ -159,6 +161,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Lisbona');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Porto');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Viseu');
 
 /* Città Spagnole */
 INSERT INTO gestionale.city (city_name)
