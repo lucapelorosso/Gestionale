@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-27                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-10-15                         */
+/* Modified: 2024-10-17                         */
 /* Definition: insert data table nation         */
 /************************************************/
  
@@ -12,6 +12,8 @@ DELETE FROM gestionale.nation;
 /* Paesi Europa*/
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Albania');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Austria');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Belgio');
 INSERT INTO gestionale.nation (nation_name)
