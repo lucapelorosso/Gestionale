@@ -20,10 +20,10 @@
 /* 006)  dml_table_language.sql --
 /* 007)  ddl_table_type_book.sql --
 /* 008)  dml_table_type_book.sql --
-/* 009)  ddl_table_address.sql  
-/* 010)  dml_table_address.sql
+/* 009)  ddl_table_address.sql  --
+/* 010)  dml_table_address.sql --
 /* 011)  ddl_table_city.sql --
-/* 012)  dml_table_city.sql
+/* 012)  dml_table_city.sql --
 /* 013)  ddl_table_socialnetwork_type.sql
 /* 014)  dml_table_socialnetwork_type.sql
 /* 015)  ddl_table_account.sql
