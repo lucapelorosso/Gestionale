@@ -111,6 +111,14 @@ VALUES ('Venezuela');
 
 /* Paesi Asia*/
 INSERT INTO gestionale.nation (nation_name)
+VALUES ('Afghanistan'); 
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Armenia'); 
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Arabia Saudita'); 
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Azerbaigian'); 
+INSERT INTO gestionale.nation (nation_name)
 VALUES ('Cina'); 
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Corea del Nord');
@@ -130,6 +138,8 @@ INSERT INTO gestionale.nation (nation_name)
 VALUES ('Mongolia');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Pakistan');
+INSERT INTO gestionale.nation (nation_name)
+VALUES ('Sri Lanka');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Vietman');
 COMMIT;
