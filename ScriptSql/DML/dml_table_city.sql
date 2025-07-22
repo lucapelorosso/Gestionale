@@ -76,17 +76,25 @@ VALUES ('Noli');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Nova Milanese'); 
 INSERT INTO gestionale.city (city_name)
+VALUES ('Novi Ligure'); 
+INSERT INTO gestionale.city (city_name)
 VALUES ('Osimo'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Otranto'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Padova'); 
 INSERT INTO gestionale.city (city_name)
+VALUES ('Pavia'); 
+INSERT INTO gestionale.city (city_name)
+VALUES ('Pietra Ligure'); 
+INSERT INTO gestionale.city (city_name)
 VALUES ('Porto Recanati'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Reggio Calabria');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Reggio Emilia');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Ronco Scrivia');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Roma');
 INSERT INTO gestionale.city (city_name)
