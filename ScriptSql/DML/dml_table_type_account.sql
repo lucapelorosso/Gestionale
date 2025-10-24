@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2023-05-05                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-05-28                         */
+/* Modified: 2024-10-24                         */
 /* Definition: Insert data table type_account   */
 /************************************************/
  
@@ -13,6 +13,8 @@ INSERT INTO gestionale.type_account (typeaccount_name)
 VALUES ('Lettore'); 
 INSERT INTO gestionale.type_account (typeaccount_name)
 VALUES ('Scrittore'); 
+INSERT INTO gestionale.type_account (typeaccount_name)
+VALUES ('Libreria'); 
 COMMIT;
 
 /************************************************/
