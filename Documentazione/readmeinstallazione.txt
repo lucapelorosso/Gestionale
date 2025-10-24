@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-11-12                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-1106                         */
+/* Modified: 2025-10-24                         */
 /* Definition: Step Lancio scrip sql            */
 /************************************************/
 
@@ -30,27 +30,3 @@
 /* 016)  dml_table_account.sql --
 /* 017)  ddl_table_publisher.sql --
 /* 018)  dml_table_publisher.sql --
-
-ddl_drop_table.sql
-ddl_table_account_social.sql
-
-ddl_table_book.sql
-ddl_table_bookstore_shops.sql
-
-
-ddl_view_bookstore_shops.sql
-
-
-
--- dml
-dml_creazione_user.sql
-
-
-dml_table_book.sql
-dml_table_bookstore_shops.sql
-
-
-
-
-
-
