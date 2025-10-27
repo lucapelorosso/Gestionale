@@ -241,3 +241,11 @@ VALUES ('Losanna');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Lugano');
 commit;
+
+
+/************************************************/
+/* Created: 2023-05-08                          */
+/* Created By: Luca Pelorosso                   */
+/* Note: Matenere sempre alla fine              */
+/************************************************/
+select * from gestionale.city 

@@ -13,7 +13,7 @@ INSERT INTO gestionale.address
 `nationID`,
 `cap`,
 `tipo`,
-`city`,
+`cityID`,
 `a_address`,
 `a_number`)
 VALUES
@@ -21,7 +21,8 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20099',
 'via',
-'Sesto San Giovanni',
+--'Sesto San Giovanni', 
+(select cityID from gestionale.city where city_name ='Sesto San Giovanni' ),
 'Lombardia',
 '37');
 COMMIT;
@@ -32,7 +33,7 @@ INSERT INTO gestionale.address
 `nationID`,
 `cap`,
 `tipo`,
-`city`,
+`cityID`,
 `a_address`,
 `a_number`)
 VALUES
@@ -49,7 +50,7 @@ INSERT INTO gestionale.address
 `nationID`,
 `cap`,
 `tipo`,
-`city`,
+`cityID`,
 `a_address`,
 `a_number`)
 VALUES
@@ -57,7 +58,8 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20139',
 'Piazza',
-'Milano',
+--'Milano',
+(select cityID from gestionale.city where city_name ='Milano' ),
 'Bonomelli',
 '6/4');
  
@@ -66,7 +68,7 @@ INSERT INTO gestionale.address
 `nationID`,
 `cap`,
 `tipo`,
-`city`,
+`cityID`,
 `a_address`,
 `a_number`)
 VALUES
@@ -75,6 +77,7 @@ VALUES
 '20006',
 'xx',
 'Pregana Milanese',
+(select cityID from gestionale.city where city_name ='Pregana Milanese' ),
 'xx',
 'xx');
 
@@ -84,7 +87,7 @@ INSERT INTO gestionale.address
 `nationID`,
 `cap`,
 `tipo`,
-`city`,
+`cityID`,
 `a_address`,
 `a_number`)
 VALUES
@@ -101,7 +104,7 @@ INSERT INTO gestionale.address
 `nationID`,
 `cap`,
 `tipo`,
-`city`,
+`cityID`,
 `a_address`,
 `a_number`)
 VALUES
@@ -109,7 +112,8 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20099',
 'Piazza',
-'Sesto San Giovanni',
+--'Sesto San Giovanni', 
+(select cityID from gestionale.city where city_name ='Sesto San Giovanni' ),
 'Martiri di via Fani',
 '1');
 
@@ -118,7 +122,7 @@ INSERT INTO gestionale.address
 `nationID`,
 `cap`,
 `tipo`,
-`city`,
+`cityID`,
 `a_address`,
 `a_number`)
 VALUES
@@ -126,7 +130,8 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20099',
 'Via',
-'Sesto San Giovanni',
+--'Sesto San Giovanni', 
+(select cityID from gestionale.city where city_name ='Sesto San Giovanni' ),
 'Giuseppe Rovani',
 '242');
 
@@ -135,7 +140,7 @@ INSERT INTO gestionale.address
 `nationID`,
 `cap`,
 `tipo`,
-`city`,
+`cityID`,
 `a_address`,
 `a_number`)
 VALUES
@@ -143,7 +148,8 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '14055',
 'xxx',
-'Costigliole D''Asti',
+--'Costigliole D''Asti',
+(select cityID from gestionale.city where city_name ='Costigliole D''Asti' ),
 'xxx',
 'xxx');
 COMMIT;
@@ -153,7 +159,7 @@ INSERT INTO gestionale.address
 `nationID`,
 `cap`,
 `tipo`,
-`city`,
+`cityID`,
 `a_address`,
 `a_number`)
 VALUES
@@ -161,7 +167,8 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20127',
 'via',
-'Milano',
+--'Milano',
+(select cityID from gestionale.city where city_name ='Milano' ),
 'Scutari',
 '5');
 COMMIT;
@@ -171,7 +178,7 @@ INSERT INTO gestionale.address
 `nationID`,
 `cap`,
 `tipo`,
-`city`,
+`cityID`,
 `a_address`,
 `a_number`)
 VALUES
@@ -179,7 +186,8 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20099',
 'via',
-'Sesto San Giovanni',
+--'Sesto San Giovanni', 
+(select cityID from gestionale.city where city_name ='Sesto San Giovanni' ),
 'Lombardia',
 '20');
 COMMIT;
