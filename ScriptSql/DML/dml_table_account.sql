@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-11                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2023-11-21                         */
+/* Modified: 2025-10-28                         */
 /* Definition: insert data table account        */
 /************************************************/
 
@@ -55,7 +55,7 @@ NULL,
 NULL,
 (select typeaccountID from gestionale.type_account where typeaccount_name = 'Scrittore'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
-(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Sesto San Giovanni' and a_address = 'Casiraghi' and indirizzo.a_number = '1')
+(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.cityID = (SELECT cityID FROM gestionale.city citta where citta.city_name = 'Sesto San Giovanni') and a_address = 'Casiraghi' and indirizzo.a_number = '1')
 );
 COMMIT;
 
@@ -81,7 +81,7 @@ NULL,
 NULL,
 (select typeaccountID from gestionale.type_account where typeaccount_name = 'Scrittore'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
-(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Pregana Milanese' and a_address = 'xx' and indirizzo.a_number = 'xx')
+(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.cityID = (SELECT cityID FROM gestionale.city citta where citta.city_name = 'Pregana Milanese') and a_address = 'xx' and indirizzo.a_number = 'xx')
 );
 COMMIT;
 
@@ -106,32 +106,7 @@ NULL,
 NULL,
 (select typeaccountID from gestionale.type_account where typeaccount_name = 'Scrittore'),
 (select nationID from gestionale.nation where nation_name = 'Italia'),
-(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Costigliole D''Asti' and a_address = 'xx' and indirizzo.a_number = 'xx')
-);
-COMMIT;
-
-INSERT INTO `gestionale`.`account`
-( 
-`LastName`,
-`FirstName`,
-`birth_date`,
-`death_date`,
-`birth_city`,
-`death_city`,
-`typeaccountID`,
-`nationID`,
-`addressID`)
-VALUES
-( 
-'--',
-'Shanmei',
-STR_TO_DATE('01/01/1969', '%d/%m/%Y'),
-NULL,
-'Chieri',
-NULL,
-(select typeaccountID from gestionale.type_account where typeaccount_name = 'Scrittore'),
-(select nationID from gestionale.nation where nation_name = 'Italia'),
-(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.city = 'Costigliole D''Asti' and a_address = 'xx' and indirizzo.a_number = 'xx')
+(select indirizzo.addressID from gestionale.address indirizzo where indirizzo.cityID = (SELECT cityID FROM gestionale.city citta where citta.city_name = 'Costigliole D''Asti') and a_address = 'xx' and indirizzo.a_number = 'xx')
 );
 COMMIT;
 

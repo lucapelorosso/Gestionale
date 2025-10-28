@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-28                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2024-03-09                         */
+/* Modified: 2025-10-28                         */
 /* Definition: insert data table address        */
 /************************************************/
 
@@ -21,7 +21,6 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20099',
 'via',
---'Sesto San Giovanni', 
 (select cityID from gestionale.city where city_name ='Sesto San Giovanni' ),
 'Lombardia',
 '37');
@@ -41,7 +40,7 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'U.S.A.'),
 '12345',
 'Street',
-'New York City',
+(select cityID from gestionale.city where city_name ='New York City' ),
 'Fittizzio',
 '1');
 
@@ -58,7 +57,6 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20139',
 'Piazza',
---'Milano',
 (select cityID from gestionale.city where city_name ='Milano' ),
 'Bonomelli',
 '6/4');
@@ -76,7 +74,6 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20006',
 'xx',
-'Pregana Milanese',
 (select cityID from gestionale.city where city_name ='Pregana Milanese' ),
 'xx',
 'xx');
@@ -95,7 +92,7 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20099',
 'Largo',
-'Sesto San Giovanni',
+(select cityID from gestionale.city where city_name ='Sesto San Giovanni' ),
 'Lamarmora',
 '9');
 
@@ -112,7 +109,6 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20099',
 'Piazza',
---'Sesto San Giovanni', 
 (select cityID from gestionale.city where city_name ='Sesto San Giovanni' ),
 'Martiri di via Fani',
 '1');
@@ -130,7 +126,6 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20099',
 'Via',
---'Sesto San Giovanni', 
 (select cityID from gestionale.city where city_name ='Sesto San Giovanni' ),
 'Giuseppe Rovani',
 '242');
@@ -148,7 +143,7 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '14055',
 'xxx',
---'Costigliole D''Asti',
+ 
 (select cityID from gestionale.city where city_name ='Costigliole D''Asti' ),
 'xxx',
 'xxx');
@@ -167,7 +162,6 @@ VALUES
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20127',
 'via',
---'Milano',
 (select cityID from gestionale.city where city_name ='Milano' ),
 'Scutari',
 '5');
@@ -185,8 +179,7 @@ VALUES
 (
 (select nationID from gestionale.nation where nation_name = 'Italia'),
 '20099',
-'via',
---'Sesto San Giovanni', 
+'Via',
 (select cityID from gestionale.city where city_name ='Sesto San Giovanni' ),
 'Lombardia',
 '20');

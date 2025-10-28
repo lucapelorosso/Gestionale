@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2025-10-24                         */
+/* Modified: 2025-10-29                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -240,6 +240,16 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Losanna');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Lugano');
+commit;
+
+
+/* Città U.S.A. */
+INSERT INTO gestionale.city (city_name)
+VALUES ('New York City');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Boston');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Los Angeles');
 commit;
 
 
