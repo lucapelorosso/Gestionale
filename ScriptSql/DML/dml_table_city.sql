@@ -125,6 +125,8 @@ VALUES ('Viterbo');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Vimercate');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Venezia');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Verona');
 
 /* Città Francesi */

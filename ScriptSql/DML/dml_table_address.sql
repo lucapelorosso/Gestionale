@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-28                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2025-10-28                         */
+/* Modified: 2025-10-29                         */
 /* Definition: insert data table address        */
 /************************************************/
 
@@ -184,6 +184,27 @@ VALUES
 'Lombardia',
 '20');
 COMMIT;
+
+INSERT INTO gestionale.address
+(
+`nationID`,
+`cap`,
+`tipo`,
+`cityID`,
+`a_address`,
+`a_number`)
+VALUES
+(
+(select nationID from gestionale.nation where nation_name = 'Italia'),
+'14055',
+'xxx',
+ 
+(select cityID from gestionale.city where city_name ='Venezia' ),
+'xxx',
+'xxx');
+COMMIT;
+
+
 
 /************************************************/
 /* Created: 2023/04/15                          */
