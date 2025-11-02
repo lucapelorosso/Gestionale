@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2025-10-29                         */
+/* Modified: 2025-11-02                        */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -12,7 +12,6 @@ delete from  gestionale.city;
 INSERT INTO gestionale.city (city_name)
 VALUES ('Abbiategrasso');
 INSERT INTO gestionale.city (city_name)
-
 VALUES ('Alassio');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Agrate');
@@ -52,6 +51,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Cormano');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Clusone');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Domodossola');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Genova');
 INSERT INTO gestionale.city (city_name)
@@ -102,6 +103,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Reggio Emilia');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Ronco Scrivia');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Rieti');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Roma');
 INSERT INTO gestionale.city (city_name)
