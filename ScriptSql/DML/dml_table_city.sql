@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2025-11-02                        */
+/* Modified: 2025-11-04                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -244,7 +244,13 @@ VALUES ('Locarno');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Losanna');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Lucerna');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Lugano');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Zugo');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Zurigo');
 commit;
 
 
