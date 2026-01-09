@@ -256,11 +256,17 @@ commit;
 
 /* Città U.S.A. */
 INSERT INTO gestionale.city (city_name)
-VALUES ('New York City');
+VALUES ('Atlanta');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Boston');
 INSERT INTO gestionale.city (city_name)
+VALUES ('New York City');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Chicago');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Los Angeles');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Miami');
 commit;
 
 
