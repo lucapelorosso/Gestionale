@@ -60,6 +60,8 @@ VALUES ('Genova');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Igea Marina');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Imperia');
+INSERT INTO gestionale.city (city_name)
 VALUES ('La Spezia');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Lecce');
@@ -95,6 +97,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Padova'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Pavia'); 
+INSERT INTO gestionale.city (city_name)
+VALUES ('Peschiera Borromeo'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Pietra Ligure'); 
 INSERT INTO gestionale.city (city_name)
