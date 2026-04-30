@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2025-11-04                         */
+/* Modified: 2026-04-30                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -15,6 +15,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Alassio');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Agrate');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Albenga');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Arcore');
 INSERT INTO gestionale.city (city_name)
