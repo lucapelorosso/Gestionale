@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2022-10-27                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2026-01-09                         */
+/* Modified: 2026-05-07                         */
 /* Definition: insert data table nation         */
 /************************************************/
  
@@ -170,7 +170,7 @@ VALUES ('Somalia');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Sud Africa');
 INSERT INTO gestionale.nation (nation_name)
-VALUES ('Sudand');
+VALUES ('Sudan');
 INSERT INTO gestionale.nation (nation_name)
 VALUES ('Tunisia');
 INSERT INTO gestionale.nation (nation_name)
