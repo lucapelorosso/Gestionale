@@ -46,6 +46,8 @@ VALUES ('Cervo');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Cinisello Balsamo');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Città di Castello');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Cologno Monzese');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Como');
@@ -115,6 +117,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Roma');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Ronco Scrivia');
+INSERT INTO gestionale.city (city_name)
+VALUES ('San Gimignano');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Savona');
 INSERT INTO gestionale.city (city_name)
