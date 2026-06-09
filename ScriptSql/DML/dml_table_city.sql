@@ -191,6 +191,10 @@ VALUES ('Algoz');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Averio');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Anadia');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Braga');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Coimbra');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Faro');
