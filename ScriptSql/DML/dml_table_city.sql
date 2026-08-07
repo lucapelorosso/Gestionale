@@ -10,6 +10,8 @@
 SET SQL_SAFE_UPDATES = 0;
 delete from  gestionale.city;
 INSERT INTO gestionale.city (city_name)
+VALUES ('Abano Terme');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Abbiategrasso');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Alassio');
@@ -57,6 +59,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Corsico');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Clusone');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Darfo Boario Terme');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Domodossola');
 INSERT INTO gestionale.city (city_name)
@@ -175,6 +179,8 @@ VALUES ('Parigi');
 /* Città Olandesi */
 INSERT INTO gestionale.city (city_name)
 VALUES ('Amsterdam');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Beverwijk');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Eindhoven');
 INSERT INTO gestionale.city (city_name)
