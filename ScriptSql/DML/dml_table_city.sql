@@ -6,7 +6,7 @@
 /* Definition: Creation table city              */
 /************************************************/
 
-/* Città Italiane */
+/* Citta Italiane */
 SET SQL_SAFE_UPDATES = 0;
 delete from  gestionale.city;
 INSERT INTO gestionale.city (city_name)
