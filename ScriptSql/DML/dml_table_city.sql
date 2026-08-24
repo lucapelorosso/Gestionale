@@ -2,7 +2,7 @@
 /* Created by: Luca Pelorosso                   */
 /* Created: 2024-03-10                          */
 /* Modified by: Luca Pelorosso                  */
-/* Modified: 2028-08-07                         */
+/* Modified: 2028-08-24                         */
 /* Definition: Creation table city              */
 /************************************************/
 
@@ -59,6 +59,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Corsico');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Clusone');
+INSERT INTO gestionale.city (city_name)
+VALUES ('Cusano Milanino');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Darfo Boario Terme');
 INSERT INTO gestionale.city (city_name)
