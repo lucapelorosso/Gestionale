@@ -64,6 +64,8 @@ VALUES ('Corsico');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Clusone');
 INSERT INTO gestionale.city (city_name)
+VALUES ('Cuneo');
+INSERT INTO gestionale.city (city_name)
 VALUES ('Cusano Milanino');
 INSERT INTO gestionale.city (city_name)
 VALUES ('Darfo Boario Terme');
@@ -107,6 +109,8 @@ INSERT INTO gestionale.city (city_name)
 VALUES ('Novi Ligure'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Osimo'); 
+INSERT INTO gestionale.city (city_name)
+VALUES ('Oristano'); 
 INSERT INTO gestionale.city (city_name)
 VALUES ('Otranto'); 
 INSERT INTO gestionale.city (city_name)
